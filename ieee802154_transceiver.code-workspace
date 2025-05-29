@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "./examples/simple_transceiver"
+		},
+		{
+			"path": "./examples/ieee802154_sniffer"
+		},
+		{
+			"path": "./examples/ieee802154_bridge"
+		},
+		{
+			"path": "./test_runner"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"ieee802154_transceiver.h": "c",
+			"esp_ieee802154.h": "c"
+		}
+	}
+}

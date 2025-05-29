@@ -1,0 +1,12 @@
+name: "ieee802154_transceiver"
+version: "1.0.0"
+description: "ESP-IDF component for IEEE 802.15.4 communication with ESP32's built-in radio"
+url: https://github.com/shoderico/ieee802154_transceiver
+repository: https://github.com/shoderico/ieee802154_transceiver.git
+
+dependencies:
+  shoderico/ieee802154_frame:
+    version: "*"
+    public: true
+  idf:
+    version: ">=5.0"
